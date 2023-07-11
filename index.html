@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <h1>Password Generator</h1>
+    <!-- Added a simple generator with options to specify the password for lenght and different types of characters-->
+    <label for="length">Password Length:</label>
+    <input type="number" id="length" min="4" max="20" value="8"><br><br>
+
+    <input type="checkbox" id="uppercase" checked>
+    <label for="uppercase">Uppercase Letters</label><br>
+
+    <input type="checkbox" id="lowercase" checked>
+    <label for="lowercase">Lowercase Letters</label><br>
+
+    <input type="checkbox" id="numbers" checked>
+    <label for="numbers">Numbers</label><br>
+
+    <input type="checkbox" id="symbols" checked>
+    <label for="symbols">Symbols</label><br><br>
+
+    <button onclick="generatePassword()">Generate Password</button><br><br>
+
+    <label for="result">Generated Password:</label>
+    <input type="text" id="result" readonly>
+<!-- I'm the goat, its my time! but i figured it out with the help of step by step coding course book and using my jimmy brain muahah also some youtube videos were awesome help -->
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
