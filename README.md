@@ -17,7 +17,7 @@ Password Generator - Made a worldy password generator that has a power level ove
 <img src=""/>
 
 # Deployed Page
-<a href="https://eddybowbow.github.io/Eddy-Portfolio/">Deployed Link</a> 
+<a href="https://eddybowbow.github.io/Worldy-passwordgenerator9000/">Deployed Link</a> 
  
 # Contact
 <a href="https://github.com/eDDyBoWbOw">Github:Edward T Caldwell</a><br>
